@@ -2,7 +2,7 @@
 # Neural Impulse Signal (NIS)
 # ============================
 # Universal signal unit — carries any structured impulse between any two
-# components in Grace's nervous system. Not specific to sensory input.
+# components in AIVA's nervous system. Not specific to sensory input.
 #
 # Biological analogue: action potential —
 #   A neuron fires an all-or-nothing electrical impulse along its axon
@@ -74,7 +74,7 @@ float64                 latency             # time from fired_at to integrated_a
 string                  drop_reason         # why dropped — "below_threshold" | "refractory" | "overflow" | "timeout"
 
 # ── flags ─────────────────────────────────────────────────────────────────────
-bool                    internal            # true if Grace-originated — not from external environment
+bool                    internal            # true if AIVA-originated — not from external environment
 bool                    requires_response   # true if emitter expects a return NIS
 bool                    refractory          # true if this pathway is in suppression — receiver should discard
 string                  correlation_id      # links return NIS to its originating request — e.g. matches nis_id of request

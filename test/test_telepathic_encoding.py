@@ -9,7 +9,7 @@ from cryptic_signal_core.telepathic_encoding import decode_text, encode_text
     "text",
     [
         "Hello world!",
-        "/web Hello, Grace!",
+        "/web Hello, AIVA!",
         "I'm aiko—こんにちは 👋",
         "",
     ],
